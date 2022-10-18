@@ -1,8 +1,12 @@
+import React from "react";
 import Link from "next/link";
+import { DetailedHTMLProps, HTMLAttributes } from "react";
 import { Header } from "../components/Header";
 import { client } from "../libs/client";
 
-export default function Home({ blog }) {
+export default function Home({
+  blog,
+}): DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
   return (
     <div>
       <Header />

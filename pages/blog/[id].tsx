@@ -1,3 +1,4 @@
+import React from "react";
 import { Header } from "../../components/Header";
 import { client } from "../../libs/client";
 import styles from "../../styles/Home.module.scss";
