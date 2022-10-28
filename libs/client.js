@@ -1,9 +1,9 @@
 import { createClient } from "microcms-js-sdk";
 // const { createClient } = require("microcms-js-sdk");
 require("dotenv").config();
-const env = process.env;
-console.log(env.API_KEY);
-console.log("NEXT_PUBLIC_API_KEY", process.env.API_KEY);
+// const env = process.env;
+// console.log(env.API_KEY);
+// console.log("NEXT_PUBLIC_API_KEY", process.env.API_KEY);
 
 export const client = createClient({
   serviceDomain: "satou",
