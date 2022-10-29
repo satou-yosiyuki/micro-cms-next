@@ -4,5 +4,5 @@ const env = process.env;
 
 export const client = createClient({
   serviceDomain: "satou",
-  apiKey: env.NEXT_PUBLIC_API_KEY,
+  apiKey: env.API_KEY,
 });
