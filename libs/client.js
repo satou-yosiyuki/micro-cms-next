@@ -1,5 +1,5 @@
 import { createClient } from "microcms-js-sdk";
-require("dotenv").config();
+// require("dotenv").config();
 const apiKey = process.env.NEXT_PUBLIC_API_KEY;
 // console.log("apiKey", apiKey);
 
