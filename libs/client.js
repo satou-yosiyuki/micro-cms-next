@@ -7,5 +7,3 @@ export const client = createClient({
   serviceDomain: "satou",
   apiKey: apiKey,
 });
-
-//
