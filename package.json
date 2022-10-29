@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build-production": "dotenv -e .env.production react-scripts build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.7",
+    "dotenv-cli": "^6.0.0",
     "eslint": "8.13.0",
     "eslint-config-next": "12.1.5"
   }
