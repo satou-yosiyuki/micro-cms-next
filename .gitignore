@@ -26,14 +26,14 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
-.env
-.env.local
-.env.development
-.env.development.local
-.env.test.local
-.env.production
-.env.production.local
-.env*.local
+# .env
+# .env.local
+# .env.development
+# .env.development.local
+# .env.test.local
+# .env.production
+# .env.production.local
+# .env*.local
 # .env*.production
 .env.local
 
