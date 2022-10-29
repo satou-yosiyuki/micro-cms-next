@@ -6,4 +6,3 @@ export const client = createClient({
   serviceDomain: "satou",
   apiKey: env.API_KEY,
 });
-
