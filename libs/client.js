@@ -8,4 +8,4 @@ export const client = createClient({
   apiKey: apiKey,
 });
 
-// あ
+//
