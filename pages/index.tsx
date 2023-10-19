@@ -4,6 +4,7 @@ import { DetailedHTMLProps, HTMLAttributes } from "react";
 import { Header } from "../components/Header";
 import { client } from "../libs/client";
 import { Grid } from "@mui/material";
+import BlogList from "../components/BlogList";
 
 export default function Home({
   blog,
@@ -11,21 +12,7 @@ export default function Home({
   return (
     <>
       <Header />
-      <Grid
-        container
-        spacing={{ xs: 2, md: 3 }}
-        columns={{ xs: 4, sm: 8, md: 12 }}
-      >
-        {blog.map((blog) => (
-          <Grid item xs={2} sm={4} md={4} key={blog.id}>
-            <Link href={`/blog/${blog.id}`}>
-              <a style={{ fontWeight: "bold", fontSize: "20px" }}>
-                {blog.title}
-              </a>
-            </Link>
-          </Grid>
-        ))}
-      </Grid>
+      <BlogList blog={blog} />
     </>
   );
 }
