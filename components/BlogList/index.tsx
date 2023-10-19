@@ -11,8 +11,8 @@ const BlogList = ({ blog }) => {
           {blog.map((blog) => (
             <Link key={blog.id} href={`/blog/${blog.id}`}>
               <a className={styles.blogItem}>
+                <span>{blog.category.name}</span>
                 <h2>{blog.title}</h2>
-                <p>{blog.content}</p>
               </a>
             </Link>
           ))}
